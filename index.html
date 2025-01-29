@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mono</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root">
+        <div class="min-h-screen bg-gradient-to-br from-red-900 to-black text-white">
+            <!-- Header with animated logo -->
+            <header class="container mx-auto py-6 px-4">
+                <div class="flex items-center justify-center mb-12">
+                    <div class="animate-bounce">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500">
+                            <path d="M4 17l6-6-6-6"></path>
+                            <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7"></path>
+                        </svg>
+                    </div>
+                    <h1 class="text-4xl font-bold ml-4">Steak</h1>
+                </div>
+            </header>
+
+            <!-- Main content -->
+            <main class="container mx-auto px-4">
+                <!-- Hero Section -->
+                <section class="mb-16">
+                    <div class="relative h-[500px] rounded-2xl overflow-hidden bg-black bg-opacity-50 backdrop-blur-sm border border-red-900/30">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center max-w-3xl px-4">
+                                <h2 class="text-5xl font-bold mb-4">Ultimate Roblox Experience</h2>
+                                <p class="text-xl mb-8">Advanced execution engine with unmatched stability and features</p>
+                                <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105">
+                                    Download Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Features Grid -->
+                <section class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-black bg-opacity-50 p-8 rounded-xl backdrop-blur-sm border border-red-900/30">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500 mb-4">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+                        </svg>
+                        <h3 class="text-2xl font-bold mb-4 text-red-500">Undetected</h3>
+                        <p>Advanced protection system ensures your security while executing scripts</p>
+                    </div>
+                    <div class="bg-black bg-opacity-50 p-8 rounded-xl backdrop-blur-sm border border-red-900/30">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500 mb-4">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                        </svg>
+                        <h3 class="text-2xl font-bold mb-4 text-red-500">Lightning Fast</h3>
+                        <p>Optimized execution engine for instant script loading and execution</p>
+                    </div>
+                    <div class="bg-black bg-opacity-50 p-8 rounded-xl backdrop-blur-sm border border-red-900/30">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500 mb-4">
+                            <path d="m18 16 4-4-4-4"></path>
+                            <path d="m6 8-4 4 4 4"></path>
+                            <path d="m14.5 4-5 16"></path>
+                        </svg>
+                        <h3 class="text-2xl font-bold mb-4 text-red-500">Script Hub</h3>
+                        <p>Access to a vast library of pre-made scripts and custom functions</p>
+                    </div>
+                </section>
+
+                <!-- Key Features -->
+                <section class="mb-16">
+                    <h2 class="text-3xl font-bold mb-8 text-center">Advanced Features</h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="relative rounded-xl overflow-hidden group">
+                            <div class="bg-black bg-opacity-80 p-8 rounded-xl backdrop-blur-sm border border-red-900/30 h-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500 mb-4">
+                                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                                    <rect x="9" y="9" width="6" height="6"></rect>
+                                    <path d="M15 2v2"></path>
+                                    <path d="M15 20v2"></path>
+                                    <path d="M2 15h2"></path>
+                                    <path d="M20 15h2"></path>
+                                </svg>
+                                <h3 class="text-2xl font-bold mb-4">Multi-Instance Support</h3>
+                                <ul class="space-y-2 text-gray-300">
+                                    <li>• Run multiple Roblox instances simultaneously</li>
+                                    <li>• Independent script execution per instance</li>
+                                    <li>• Optimized memory management</li>
+                                    <li>• Instance monitoring tools</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="relative rounded-xl overflow-hidden group">
+                            <div class="bg-black bg-opacity-80 p-8 rounded-xl backdrop-blur-sm border border-red-900/30 h-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500 mb-4">
+                                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                </svg>
+                                <h3 class="text-2xl font-bold mb-4">Security Features</h3>
+                                <ul class="space-y-2 text-gray-300">
+                                    <li>• Anti-detection system</li>
+                                    <li>• Secure script execution</li>
+                                    <li>• Auto-update mechanism</li>
+                                    <li>• Encrypted communication</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+            <!-- Footer -->
+            <footer class="bg-black bg-opacity-50 py-8">
+                <div class="container mx-auto px-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-500 mx-auto mb-4">
+                        <path d="M4 17l6-6-6-6"></path>
+                        <path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7"></path>
+                    </svg>
+                    <p class="text-gray-400">Mono 2025</p>
+                    <p class="text-xs text-gray-500 mt-2">Made with love by Matt.</p>
+                    <div class="mt-4">
+                        <a href="legal.html" class="text-red-500 hover:text-red-400 text-sm">Legal Notice</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
